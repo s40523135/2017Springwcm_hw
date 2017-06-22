@@ -39,6 +39,12 @@
 <v t="yen.20170108171733.16" a="E"><vh>快捷鍵</vh>
 <v t="yen.20170108171733.17"><vh>投影片快捷鍵</vh></v>
 </v>
+<v t="leo.20170622230021.1" a="E"><vh>快捷鍵</vh>
+<v t="leo.20170622230021.2"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20170622230646.1" a="E"><vh>快捷鍵</vh>
+<v t="leo.20170622230646.2"><vh>投影片快捷鍵</vh></v>
+</v>
 <v t="yen.20170108171733.64" a="E"><vh>各式內容引用範例</vh>
 <v t="yen.20170108171733.65" a="E"><vh>導入數學符號與方程式</vh>
 <v t="yen.20170108171733.66"><vh>LaTeX 格式方程式</vh></v>
@@ -69,6 +75,44 @@
 <v t="yen.20170108171939.1"><vh>@button ipv6 https server</vh></v>
 </vnodes>
 <tnodes>
+<t tx="leo.20170622230021.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170622230021.2"># 2.用实体机进行网际管理
+
+* 制作网路线
+* 把两台旧主机组成一台新主机（加大内存加大硬碟容量）
+* 用光盘在主机上安装ubuntu（时间较长）
+* 安装完成后和虚拟机一样进行版本更新并安装stunnel与fossil SCM
+* 执行fossil http，然后使用另一台主机透过网路连接这台实体机并进行管理
+
+
+</t>
+<t tx="leo.20170622230646.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170622230646.2"># 3.课堂额外观念
+
+* 机械设计的概述以及每个字的含义
+* 设计师的一种表达方式 设计的人通常不用去做 要很清楚设计的目的是什么 机械在设计的时候就要有特定的功能 还有要思考讨论 基本原件包括硬体的原件 流体的原件 软体的原件 设计要注重最佳化设计
+（做一个虚实结合的设计师，做好数位化管理）
+* 还有 英文很重要 是以后和世界交流的工具
+* 
+* 
+
+</t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
@@ -147,7 +191,7 @@ QLineEdit#editorLabel {
 vertical: body pane on the botton</t>
 <t tx="yen.20170108171622.1">2017 Spring WCM 機械設計工程系網際內容管理
 
-倉儲位置: https://github.com/s40523135/2017springwcm_g5
+倉儲位置: https://github.com/s40523137/2017springwcm_g5
 
 每一協同成員都應該要在 users 目錄下有一個 Leo 檔案
 
@@ -235,14 +279,13 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="yen.20170108171733.15">## 2017Spring 網際內容管理課程
+<t tx="yen.20170108171733.15">## 2017Spring 網際內容管理課程简报
 
 ### 虎科大機械設計工程系
 
 &lt;small&gt;
-
+Created by [s40523135](https://mde2a2.kmol.info/wcmg5/index)
 &lt;/small&gt;
-
 </t>
 <t tx="yen.20170108171733.16">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -253,14 +296,15 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="yen.20170108171733.17"># 投影片快捷鍵
+<t tx="yen.20170108171733.17"># 1利用virtualbox进行网际管理
 
-* 利用箭頭上下前後換頁
-* 按 f 鍵進入全螢幕模式 (full screen)
-* 按 s 鍵可以顯示投影片筆記 (show)
-* 按 o 鍵可以切換單張或全域檢視 (overview)
-* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
-* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
+* 在virtualbox中开启ubuntu虚拟机
+* 安装完ubuntu后进行网路设定
+* 用virtualbox中的ubuntu系统来尝试建立Fossil sever与stunnel。
+* 啟動 CMSimfly （网路网际管理程式）进行网际管理添加资料库与图片之类的
+* 设定完成后用另一台主机连接虚拟机进行管理
+
+
 
 </t>
 <t tx="yen.20170108171733.2">@language python
